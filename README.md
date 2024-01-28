@@ -53,6 +53,6 @@ The working is as follows:
 
 The sample **medicine_data.xlsx** is in the main branch refer to create your own.
 
-
+Note:Welcome contributions from others by inviting them to submit pull requests with proposed changes or fixes.
 
 
