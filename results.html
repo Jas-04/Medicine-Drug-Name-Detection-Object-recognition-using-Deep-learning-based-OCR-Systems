@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicine Label OCR Results</title>
+    <style>
+        body {
+            background-image: url("{{ url_for('static', filename='images/OCR3.png') }}");
+            overflow: hidden;
+            background-size: cover;
+        }
+
+        th {
+            color: #00008B;
+            font-size: 45px;
+            padding-right:10px;
+        }
+
+        td {
+            font-size: 45px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4f6367;
+            font-size: 50px;
+            font-weight: 800;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Drug Name Detection using Deep Learning based OCR</h1>
+    <h1>Results</h1>
+    <!--<img src="data:image/png;base64,{{ orig_image }}" alt="Original Image">-->
+    <!--<h2>Recognized Text</h2>
+    {% for text in recognized_text %}
+        <p>{{ medicine_name }}</p>
+        <p>{{ use }}</p>
+    {% endfor %}-->
+    <center>
+        <table>
+            <tr>
+                <th>Drug Name</th>
+                <td>{{ medicine_name }}</td>
+            </tr>
+            <tr>
+                <th>Usage</th>
+                <td>{{ use }}</td>
+            </tr>
+        </table>
+    </center>
+
+    <!-- Add any additional content you want to display -->
+</body>
+
+</html>
