@@ -48,4 +48,11 @@ Note: frozen_east_text_detection.pb is free to download.It plays a major role in
 The working is as follows:
 **Step1:** Initially upload any of the image as follows
 ![OCR INOUT](https://github.com/Jas-04/Medicine-Drug-Name-Detection-Object-recognition-using-Deep-learning-based-OCR-Systems/assets/133671306/5377030c-bb8b-450b-9b14-e5cff3bfe1d5)
+**Step2:** The processing and the output is as follows
+![image](https://github.com/Jas-04/Medicine-Drug-Name-Detection-Object-recognition-using-Deep-learning-based-OCR-Systems/assets/133671306/809b7f55-e877-40c2-9b67-21fd225f7499)
+
+The sample **medicine_data.xlsx** is in the main branch refer to create your own.
+
+
+
 
